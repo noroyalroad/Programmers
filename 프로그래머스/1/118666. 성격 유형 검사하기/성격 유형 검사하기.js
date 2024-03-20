@@ -48,8 +48,7 @@ function solution(survey, choices) {
     
     
     for(let x of ["RT","CF", "JM","AN"]){
-        
-        
+             
        console.log(mbti[x[0]] ,mbti[x[1]])
         
         if(mbti[x[0]] ===mbti[x[1]]){
@@ -60,20 +59,8 @@ function solution(survey, choices) {
         }
         else{
             answer+=x[1]
-        }
-        
+        }       
     }
-    
-   
-    
-   
-    
-    
-    
-    
-    
-    
-    
     
     return answer;
 }

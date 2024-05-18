@@ -16,4 +16,8 @@ class Solution {
         
         return answer;
     }
+    public static void main(String [] args) {
+        Solution te = new Solution() ;
+        System.out.println(te.solution(12)) ;
+    }
 }
